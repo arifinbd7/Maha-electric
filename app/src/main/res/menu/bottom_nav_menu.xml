@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home"
+        android:id="@+id/home"
+        android:icon="@drawable/baseline_home_24" />
+    <item android:title="Product"
+        android:id="@+id/product"
+        android:icon="@drawable/baseline_product" />
+
+
+    <item android:title="" />
+    <item
+        android:id="@+id/month"
+        android:icon="@drawable/baseline_calendar_month_24"
+        android:title="Monthly" />
+
+    <item android:title="Sale"
+        android:id="@+id/sale"
+        android:icon="@drawable/sale"/>
+</menu>
